@@ -1,1 +1,5 @@
-console.log("I am logged from   client.js file");
+import React from "react";
+import ReactDOM from 'react-dom';
+import Home from './components/Home';
+
+ReactDOM.hydrate(<Home />, document.querySelector("#root"));
